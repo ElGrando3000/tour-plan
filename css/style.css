@@ -959,4 +959,7 @@ template {
   .slider {
     height: 250px;
   }
+  .hotel__slider {
+    margin-bottom: 20px;
+  }
 }
