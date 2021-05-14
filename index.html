@@ -105,29 +105,26 @@
       </div>
       <!-- /.hotel-info -->
       <div class="hotel-grid">
-        <div class="slider hotel__slider">
           <!-- Slider main container -->
-          <div class="swiper-container">
+          <div class="swiper-container hotel-slider hotel__slider">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="img/slide-1.jpg" alt="slide">
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="img/slide-2.jpg" alt="slide">
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="img/slide-3.jpg" alt="slide">
               </div>
             </div>
             <!-- If we need navigation buttons -->
-            <button class="slider-button slider-button--prev"></button>
-            <button class="slider-button slider-button--next"></button>
+            <button class="hotel-slider__button hotel-slider__button--prev"></button>
+            <button class="hotel-slider__button hotel-slider__button--next"></button>
           </div>
           <!-- /.swiper-container -->
-        </div>
-        <!-- /.slider -->
         <div class="hotel-right">
                   <div class="booking">
                     <div class="booking__info">
@@ -162,9 +159,9 @@
                   </div>
                   <!-- /.booking -->
                   <div class="map">
-                  <iframe
+                  <iframe class="google-map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1976.0198823612595!2d98.29481123476059!3d7.890908846254059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1620852068210!5m2!1sru!2sru"
-                    width="100%" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    width="347" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                   <!-- /.map -->
         </div>
@@ -192,6 +189,82 @@
     <!-- /.newsletter-wrapper -->
   </section>
   <!-- /.newsletter -->
+  <section class="reviews">
+    <div class="container">
+      <h2 class="reviews__title">What people thinks about us</h2>
+      <div class="swiper-container reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img src="img/reviews-avatar.jpg" alt="Photo: Megan Fox" class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Megan Fox</h3>
+                <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                <div class="reviews-slider__rating">
+                  <img src="img/Stars.svg" alt="stars">
+                </div>
+                <!-- /.reviews-slider__rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+              <p class="reviews-slider__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only
+              that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which
+              were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per
+              atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it
+              was a good experience and could recommend.</p>
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide --><div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img src="img/johnny-avatar.jpg" alt="Photo: Johnny Sins" class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Johnny Sins</h3>
+                <span class="reviews-slider__date">Stayed 9 Oct, 2020</span>
+                <div class="reviews-slider__rating">
+                  <img src="img/Stars.svg" alt="stars">
+                </div>
+                <!-- /.reviews-slider__rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+              <p class="reviews-slider__text">It was a very nice hotel with cleanliness. The staff were nice and with clean shaven pussies. They are
+              welcome us very well, with cocaine and marijuana. The only problem was that the lighting was very poor and the porn had
+              to be filmed only in the corner of the gallery. The breakfast was good and the support from the staff was very pleasant, even managed to pull off a threesome. The
+              location is not very good as. In terms of atmosphere, it is very close to most popular places, but too many transsexuals, not very good. General
+              it was a good experience and can recommend.</p>
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide --><div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img src="img/Jacques-avatar.jpg" alt="Photo: Jacques bon homme" class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Jacques bon homme</h3>
+                <span class="reviews-slider__date">Stayed 15 May, 1123</span>
+                <div class="reviews-slider__rating">
+                  <img src="img/Stars.svg" alt="stars">
+                </div>
+                <!-- /.reviews-slider__rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+              <p class="reviews-slider__text">L'auberge est bonne. Beaucoup de bonbons à la menthe dans les urinoirs. Beaucoup de belles femmes avec des bites. Il y a
+              beaucoup de plats délicieux et très épicés dans les restaurants locaux. Les toilettes à chaque tournant, n'avaient pas à
+              faire leurs sales affaires sur la route à l'extérieur.</p>
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+        <!-- If we need navigation buttons -->
+        <button class="reviews-slider__button reviews-slider__button--prev"></button>
+        <button class="reviews-slider__button reviews-slider__button--next"></button>
+
+      </div>
+      <!-- /.reviews-slider -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.reviews -->
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
