@@ -13,6 +13,32 @@
   .card
     width: 230px
     height: 230px
+  .footer
+    &-wrapper
+      grid-template-columns: repeat (6, 1fr)
+    &__input
+      flex-basis: 100%
+    &__logo
+      grid-row: 1 / 2
+    &__social
+      &-network
+        grid-row: 1 / 2
+        grid-column: span 4
+        align-self: center
+    &__categories
+      grid-row: 2 / 3
+      grid-column: span 2
+    &__legal
+      grid-column: span 2
+    &__additional
+      grid-column: span 2
+      &__contact
+        &-details
+          grid-column: span 4
+          grid-row: 3
+        &-form
+          grid-column: span 3
+          grid-row: 4
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
