@@ -33,6 +33,10 @@ const reviewsSlider = new Swiper('.reviews-slider', {
   },
 });
 
+$(document).ready(function(){
+  $('.phone_us').mask('+7(999) 999-9999');
+   });
+
 var menuButton = $(".menu-button");
 menuButton.on("click", function (){
  $(".navbar-bottom").toggleClass("navbar-bottom--visible");
