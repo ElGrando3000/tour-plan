@@ -79,4 +79,5 @@ menuButton.on("click", function (){
       },
     });
   });
+  AOS.init();
 });
